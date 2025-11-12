@@ -33,9 +33,9 @@ This project enables CRUD operations on student profiles with proper validations
 CREATE TABLE STUDENT (
     id NUMBER PRIMARY KEY,
     name VARCHAR2(50),
-    email VARCHAR2(50),
-    address VARCHAR2(100)
+    age NUMBER
 );
+
 
 ```
 ## ✅ Project Structure
