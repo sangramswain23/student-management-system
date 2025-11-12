@@ -8,21 +8,62 @@ This project enables CRUD operations on student profiles with proper validations
 ## ✅ Features
 - Add, update, delete, and view student records  
 - MVC architecture (Servlets → Controller, JSP → View)  
-- Form validation for accurate data entry  
-- Exception handling  
+- Server-side form validation  
+- Modular service and controller layers  
+- Exception handling for stable execution  
 - Optimized SQL queries with indexing  
-- Oracle database support  
+- Oracle database integration  
 
 ---
 
 ## ✅ Tech Stack
 **Languages:** Java, SQL, HTML, CSS  
-**Backend:** Servlets, JSP, JDBC  
-**Framework:** Maven  
+**Backend Technologies:** Servlets, JSP, JDBC  
+**Architecture:** MVC  
+**Build Tool:** Maven  
 **Database:** Oracle  
 **IDE:** Eclipse / IntelliJ  
-**Tools:** Git, GitHub  
+**Tools:** Git, GitHub, Apache Tomcat  
 
 ---
 
+## ✅ Database Schema (Oracle)
+
+```sql
+CREATE TABLE STUDENT (
+    id NUMBER PRIMARY KEY,
+    name VARCHAR2(50),
+    email VARCHAR2(50),
+    address VARCHAR2(100)
+);
+
+```
 ## ✅ Project Structure
+```
+StudentManagementSystem/
+│
+├── src/main/java/school/
+│ ├── StudentController/
+│ │ ├── RegisterStudent.java
+│ │ ├── EditStudent.java
+│ │ ├── DeleteStudent.java
+│ │ └── ViewStudent.java (optional if added)
+│ │
+│ ├── entity/
+│ │ └── Student.java
+│ │
+│ └── service/
+│ └── StudentService.java
+│
+├── src/main/webapp/
+│ ├── index.jsp
+│ ├── register.jsp
+│ ├── edit.jsp
+│ ├── delete.jsp
+│ └── WEB-INF/
+│ └── web.xml
+│
+├── pom.xml
+├── .gitignore
+└── README.md
+```
