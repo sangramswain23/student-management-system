@@ -47,7 +47,7 @@ StudentManagementSystem/
 │ │ ├── RegisterStudent.java
 │ │ ├── EditStudent.java
 │ │ ├── DeleteStudent.java
-│ │ └── ViewStudent.java (optional if added)
+│ │ └── ViewStudent.java
 │ │
 │ ├── entity/
 │ │ └── Student.java
