@@ -1,33 +1,27 @@
-# Student Management System (Java, JSP, Servlets, Oracle)
+# Student Management System
 
 A full-stack MVC-based Student Management System built using Java, JSP, Servlets, JDBC, and Oracle Database.  
 This project enables CRUD operations on student profiles with proper validations, exception handling, and database optimization.
 
----
+## Features
 
-## ✅ Features
-- Add, update, delete, and view student records  
-- MVC architecture (Servlets → Controller, JSP → View)  
-- Server-side form validation  
-- Modular service and controller layers  
-- Exception handling for stable execution  
-- Optimized SQL queries with indexing  
-- Oracle database integration  
+* Add, update, delete, and view student records  
+* MVC architecture (Servlets → Controller, JSP → View)  
+* Server-side form validation  
+* Modular service and controller layers  
+* Exception handling for stable execution  
+* Optimized SQL queries with indexing  
+* Oracle database integration
 
----
+## Tech Stack
 
-## ✅ Tech Stack
-**Languages:** Java, SQL, HTML, CSS  
-**Backend Technologies:** Servlets, JSP, JDBC  
-**Architecture:** MVC  
+**Backend:** Java, Servlets, JSP, JDBC  
+**Frontend:** HTML, CSS  
+**Database:** PostgreSQL
 **Build Tool:** Maven  
-**Database:** Oracle  
-**IDE:** Eclipse / IntelliJ  
-**Tools:** Git, GitHub, Apache Tomcat  
+**Tools:** Eclipse, Apache Tomcat  
 
----
-
-## ✅ Database Schema (Oracle)
+## Database Schema (Oracle)
 
 ```sql
 CREATE TABLE STUDENT (
@@ -36,9 +30,8 @@ CREATE TABLE STUDENT (
     age NUMBER
 );
 
-
 ```
-## ✅ Project Structure
+## Project Structure
 ```
 StudentManagementSystem/
 │
@@ -67,3 +60,6 @@ StudentManagementSystem/
 ├── .gitignore
 └── README.md
 ```
+
+##Author
+Sangram Swain
