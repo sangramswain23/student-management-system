@@ -61,5 +61,6 @@ StudentManagementSystem/
 └── README.md
 ```
 
-##Author
+## Author
+
 Sangram Swain
